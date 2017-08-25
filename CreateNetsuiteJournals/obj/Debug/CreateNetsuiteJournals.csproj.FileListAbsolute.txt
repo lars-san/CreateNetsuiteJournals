@@ -9,3 +9,9 @@ c:\users\lars.white\documents\visual studio 2015\Projects\CreateNetsuiteJournals
 C:\Users\lars.white\Documents\GitHub\CreateNetsuiteJournals\CreateNetsuiteJournals\bin\Debug\CreateNetsuiteJournals.exe.config
 C:\Users\lars.white\Documents\GitHub\CreateNetsuiteJournals\CreateNetsuiteJournals\obj\Debug\CreateNetsuiteJournals.exe
 C:\Users\lars.white\Documents\GitHub\CreateNetsuiteJournals\CreateNetsuiteJournals\obj\Debug\CreateNetsuiteJournals.pdb
+C:\Users\lars.white\Documents\GitHub\CreateNetsuiteJournals\CreateNetsuiteJournals\bin\Debug\CreateNetsuiteJournals.exe
+C:\Users\lars.white\Documents\GitHub\CreateNetsuiteJournals\CreateNetsuiteJournals\bin\Debug\CreateNetsuiteJournals.pdb
+C:\Users\lars.white\Documents\GitHub\CreateNetsuiteJournals\CreateNetsuiteJournals\obj\Debug\CreateNetsuiteJournals.csprojResolveAssemblyReference.cache
+C:\Users\lars.white\Documents\GitHub\CreateNetsuiteJournals\CreateNetsuiteJournals\obj\Debug\CreateNetsuiteJournals.Form1.resources
+C:\Users\lars.white\Documents\GitHub\CreateNetsuiteJournals\CreateNetsuiteJournals\obj\Debug\CreateNetsuiteJournals.Properties.Resources.resources
+C:\Users\lars.white\Documents\GitHub\CreateNetsuiteJournals\CreateNetsuiteJournals\obj\Debug\CreateNetsuiteJournals.csproj.GenerateResource.Cache

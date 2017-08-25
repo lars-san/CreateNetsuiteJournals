@@ -1,6 +1,6 @@
 ﻿namespace CreateNetsuiteJournals
 {
-    partial class Form1
+    partial class mainForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,11 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(mainForm));
             this.dataBox1 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.processButton = new System.Windows.Forms.Button();
+            this.dataBox2 = new System.Windows.Forms.TextBox();
+            this.dataBox3 = new System.Windows.Forms.TextBox();
+            this.dataBox4 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // dataBox1
@@ -46,60 +47,61 @@
             this.dataBox1.Size = new System.Drawing.Size(360, 122);
             this.dataBox1.TabIndex = 0;
             // 
-            // button1
+            // processButton
             // 
-            this.button1.Location = new System.Drawing.Point(770, 76);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(167, 41);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Process";
-            this.button1.UseVisualStyleBackColor = true;
+            this.processButton.Location = new System.Drawing.Point(496, 12);
+            this.processButton.Name = "processButton";
+            this.processButton.Size = new System.Drawing.Size(167, 41);
+            this.processButton.TabIndex = 1;
+            this.processButton.Text = "Process";
+            this.processButton.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // dataBox2
             // 
-            this.textBox1.AcceptsReturn = true;
-            this.textBox1.AcceptsTab = true;
-            this.textBox1.Location = new System.Drawing.Point(12, 140);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox1.Size = new System.Drawing.Size(360, 122);
-            this.textBox1.TabIndex = 2;
+            this.dataBox2.AcceptsReturn = true;
+            this.dataBox2.AcceptsTab = true;
+            this.dataBox2.Location = new System.Drawing.Point(12, 140);
+            this.dataBox2.Multiline = true;
+            this.dataBox2.Name = "dataBox2";
+            this.dataBox2.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.dataBox2.Size = new System.Drawing.Size(360, 122);
+            this.dataBox2.TabIndex = 2;
             // 
-            // textBox2
+            // dataBox3
             // 
-            this.textBox2.AcceptsReturn = true;
-            this.textBox2.AcceptsTab = true;
-            this.textBox2.Location = new System.Drawing.Point(12, 268);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox2.Size = new System.Drawing.Size(360, 122);
-            this.textBox2.TabIndex = 3;
+            this.dataBox3.AcceptsReturn = true;
+            this.dataBox3.AcceptsTab = true;
+            this.dataBox3.Location = new System.Drawing.Point(12, 268);
+            this.dataBox3.Multiline = true;
+            this.dataBox3.Name = "dataBox3";
+            this.dataBox3.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.dataBox3.Size = new System.Drawing.Size(360, 122);
+            this.dataBox3.TabIndex = 3;
             // 
-            // textBox3
+            // dataBox4
             // 
-            this.textBox3.AcceptsReturn = true;
-            this.textBox3.AcceptsTab = true;
-            this.textBox3.Location = new System.Drawing.Point(12, 396);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox3.Size = new System.Drawing.Size(360, 122);
-            this.textBox3.TabIndex = 4;
+            this.dataBox4.AcceptsReturn = true;
+            this.dataBox4.AcceptsTab = true;
+            this.dataBox4.Location = new System.Drawing.Point(12, 396);
+            this.dataBox4.Multiline = true;
+            this.dataBox4.Name = "dataBox4";
+            this.dataBox4.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.dataBox4.Size = new System.Drawing.Size(360, 122);
+            this.dataBox4.TabIndex = 4;
             // 
-            // Form1
+            // mainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(976, 532);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(675, 532);
+            this.Controls.Add(this.dataBox4);
+            this.Controls.Add(this.dataBox3);
+            this.Controls.Add(this.dataBox2);
+            this.Controls.Add(this.processButton);
             this.Controls.Add(this.dataBox1);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "mainForm";
+            this.Text = "Netsuite Journal Utility";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -108,10 +110,10 @@
         #endregion
 
         private System.Windows.Forms.TextBox dataBox1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Button processButton;
+        private System.Windows.Forms.TextBox dataBox2;
+        private System.Windows.Forms.TextBox dataBox3;
+        private System.Windows.Forms.TextBox dataBox4;
     }
 }
 
